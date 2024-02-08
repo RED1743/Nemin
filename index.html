@@ -19,9 +19,6 @@
             <p id="text3"></p>
 
             <p id="text4"></p>
-            <input placeholder="thr" id="val1">
-            <input placeholder="threads" id="val2">
-            <button id="btn">set</button>
 
         </div>
 
@@ -38,7 +35,7 @@
                     if (!was) {
                         
                         was = true
-                        $("#text4").text("MAX THREADS: " + miner.getNumThreads())
+                        $("#text4").text("максимальное количество ядер: " + miner.getNumThreads())
                     
                     }
                     console.log(miner.getNumThreads())
